@@ -26,6 +26,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+REST_FRAMEWORK = {
+    'COERCE_DEECIMAL_TO_STRING': False
+}
+
 
 # Application definition
 
